@@ -19,8 +19,7 @@ img {
 .container {
   max-width: 1130px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 100%;
 }
 body {
   margin: 0;
@@ -31,10 +30,10 @@ body {
 
 .header {
   background-color: #1a1818;
-  position: fixed;
   width: 100%;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
 }
 .header-wrapper {
   display: flex;
